@@ -1,2 +1,1 @@
-git commit -m "🔒 Removed sensitive files from tracking"
-git push
+bfg --delete-files .env --delete-folders keys,tokens,crypto_keys,secret
