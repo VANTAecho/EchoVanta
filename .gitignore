@@ -1,3 +1,7 @@
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-git push --force
+.env
+*.key
+*.pem
+wallets/
+keys/
+tokens/
+*.sqlite
