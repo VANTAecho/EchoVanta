@@ -1,1 +1,3 @@
-bfg --delete-files .env --delete-folders keys,tokens,crypto_keys,secret
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+git push --force
