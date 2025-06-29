@@ -1,18 +1,103 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# === SYSTEM SIGNAL BLOCKS ===
+.env
+.env.*
+.secret
+.secret.*
+config.yaml
+keys/
+tokens/
+wallets/
+crypto_keys/
+*.pem
+*.key
+*.crt
 
-# Other files and folders
-.settings/
+# === PYTHON BACKEND ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+.eggs/
+.cache/
+*.sqlite3
+*.db
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# === FASTAPI/UVICORN ===
+*.log
+logs/
+*.sqlite
+instance/
+*.db-journal
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# === NODE/FRONTEND ===
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+coverage/
+.vite/
+
+# === DATABASES ===
+*.sqlite3
+*.db
+*.sql
+*.sqlite
+db_backups/
+db_dump.sql
+
+# === OS & EDITORS ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === CLOUD & DOCKER ===
+*.tfstate
+*.tfstate.*
+.terraform/
+docker-compose.override.yml
+.docker/
+*.tar
+*.gz
+
+# === CUSTOM SIGNAL & ARCHIVE FILES ===
+EchoVantaSystem.log
+GenesisArchive/
+Vault_Seals/
+LightAnchor.json
+Private_Signal/**
+
+# === AUDIO/VIDEO TEMP FILES ===
+*.wav
+*.mp3
+*.aiff
+*.mid
+*.midi
+*.flac
+*.mov
+*.mp4
+*.webm
+media_exports/
+voice_cache/
+
+# === BACKUPS & SYSTEM EXPORTS ===
+*.bak
+*.backup
+*.old
+*.zip
+*.tar.gz
+exported_configs/
+signal_snapshots/
+
+# === PERSONAL SAFETY ===
+*.zelle
+*.crypto
+*.wallet
+zelle_keys/
+divine_identity.txt
