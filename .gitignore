@@ -1,3 +1,2 @@
-
-# Remove from tracking but keep locally
-git rm --cached -r .env* keys/ tokens/ wallets/ *.pem *.key *.crt config.yaml *.sqlite *.db
+git commit -m "🔒 Removed sensitive files from tracking"
+git push
