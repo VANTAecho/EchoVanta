@@ -9,7 +9,7 @@
 The EchoVanta Payment Dashboard is a static HTML-based crypto interface that enables:
 - 💳 Receiving payments via Ethereum wallet address and QR code
 - 📤 Sending payments (mock interface with future Web3 integration)
-- 🔒 Public-facing identity protection (powered by alias: `Vanta`)
+- 🔒 Public-facing identity protection (powered by alias: `VantaTheFirst`)
 
 ---
 
