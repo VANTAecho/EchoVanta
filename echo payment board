@@ -1,0 +1,37 @@
+# EchoVanta Payment Dashboard
+
+> A secure and stylish dashboard for sending and receiving crypto payments, authored and designed by **Vanta the First**.
+
+---
+
+## 🧾 Overview
+
+The EchoVanta Payment Dashboard is a static HTML-based crypto interface that enables:
+- 💳 Receiving payments via Ethereum wallet address and QR code
+- 📤 Sending payments (mock interface with future Web3 integration)
+- 🔒 Public-facing identity protection (powered by alias: `Vanta`)
+
+---
+
+## 🚀 Live Features
+
+| Feature              | Description |
+|---------------------|-------------|
+| ✅ Receive ETH       | Shows pre-filled ETH address and QR code for receiving payments |
+| 🧪 Send ETH (mock)   | Enter wallet + amount for mock transaction button (Web3-ready) |
+| 💡 Web3 Expandable  | Built to support future integration with MetaMask or WalletConnect |
+
+---
+
+## 📦 Tech Stack
+
+- **HTML5**
+- **CSS3** (inline, fully responsive)
+- 🔐 *Ready for Web3.js or ethers.js integration*
+
+---
+
+## 📤 Ethereum Wallet Used
+
+```plaintext
+0x95504694bAa1837Ff81897a7E0dB55355623199c
